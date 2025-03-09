@@ -7,5 +7,6 @@ namespace KiaanSudyGroupInfo.Models
 {
     public class MyClass
     {
+        string Kiaan;
     }
 }
