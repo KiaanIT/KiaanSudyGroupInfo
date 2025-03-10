@@ -1,0 +1,132 @@
+﻿body {
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #d8f3dc; 
+}
+
+th, td {
+    border: 1px solid #006400; 
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #006400; 
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #eaffea; 
+}
+
+tr:hover {
+    background-color: #c3e6cb; 
+}
+
+a.btn {
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: #006400; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+    a.btn:hover {
+        background-color: #004d00; 
+    }
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D4EAD4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; 
+}
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        white-space: nowrap; 
+    }
+
+        .navbar a:hover, .active {
+            background-color: #4CAF50;
+        }
+
+.section {
+    border: 2px solid black;
+    padding: 15px;
+    margin-bottom: 20px;
+    background: #F9F9F9;
+}
+
+    .section h2 {
+        margin-top: 0;
+    }
+
+.text-with-image img, .bio-img {
+    max-width: 120px; 
+    height: auto;
+    margin-left: 15px;
+    transition: transform 0.6s ease; 
+}
+
+    .text-with-image img:hover, .bio-img:hover {
+        transform: scaleX(-1) rotateY(180deg); 
+    }
+
+
+.modules {
+    display: flex;
+    justify-content: space-between;
+}
+
+.module-list {
+    list-style: none;
+    padding: 0;
+}
+
+    .module-list li {
+        padding: 5px 0;
+    }
+
+.bio-section {
+    padding: 10px;
+    max-width: 90%;
+    overflow: hidden; 
+}
+
+.bio-img {
+    width: 120px; 
+    height: auto;
+    float: left; 
+    margin-right: 15px; 
+    display: block; 
+}
+
+
+

@@ -1,0 +1,36 @@
+﻿@model IEnumerable<KiaanSudyGroupInfo.Models.MyClass>
+
+@{
+    ViewBag.Title = "Support Group";
+}
+
+
+<h2>Support Group</h2>
+
+<table class="table">
+    <tr>
+        <th>@Html.DisplayNameFor(model => model.First().StudentNumber)</th><!---{Had to use .First didn't work without it'}-->
+        <th>@Html.DisplayNameFor(model => model.First().Name)</th>
+        <th>@Html.DisplayNameFor(model => model.First().Surname)</th>
+        <th>@Html.DisplayNameFor(model => model.First().Email)</th>
+        <th>@Html.DisplayNameFor(model => model.First().myLink)</th>
+    </tr>
+
+    @foreach (var item in Model) // Loop through the study group list
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.StudentNumber)</td>
+            <td>@Html.DisplayFor(modelItem => item.Name)</td>
+            <td>@Html.DisplayFor(modelItem => item.Surname)</td>
+            <td>@Html.DisplayFor(modelItem => item.Email)</td>
+            <td>
+                <a href="@Url.Content(item.myLink)" class="btn btn-primary" target="_blank">
+                    LINK
+                </a>
+
+            </td>
+        </tr>
+    }
+
+
+</table>
