@@ -8,7 +8,8 @@ namespace KiaanSudyGroupInfo.Models
 {
     public class MyClass
     {
-
+        int Kiaan;
+         
         [Display(Name = "Student Number")]
         public string StudentNumber { get; set; }
 
