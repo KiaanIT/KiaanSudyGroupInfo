@@ -9,6 +9,7 @@ namespace KiaanSudyGroupInfo.Models
     public class MyClass
     {
         int Kiaan;
+        int Bendre;
          
         [Display(Name = "Student Number")]
         public string StudentNumber { get; set; }
